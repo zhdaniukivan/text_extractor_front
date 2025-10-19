@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  min-height: 100vh;
+}
+
+textarea {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+.error {
+  color: red;
+  margin: 10px;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: left;
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.result-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+.result-table th,
+.result-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.result-table th {
+  background-color: #f2f2f2;
+}
+
+pre {
+  background: white;
+  padding: 10px;
+  overflow: auto;
+  text-align: left;
+}
+
+details {
+  margin-top: 10px;
+}
