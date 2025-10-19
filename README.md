@@ -12,3 +12,7 @@ docker compose up --build
 ## Work
 
 open http://localhost:3000
+
+## Stop
+
+Docker compose down
